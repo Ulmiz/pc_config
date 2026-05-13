@@ -1,0 +1,254 @@
+[
+  {
+    "id": "cpu-1",
+    "name": "Intel Core i9-14900K",
+    "type": "CPU",
+    "category": "High End",
+    "price": 11500.00,
+    "socketType": "LGA 1700",
+    "wattage": 253,
+    "description": "24 cores (8 P-cores + 16 E-cores) up to 6.0 GHz",
+    "tags": ["gaming", "4k", "diseño", "render", "entusiasta"]
+  },
+  {
+    "id": "cpu-2",
+    "name": "AMD Ryzen 9 7950X3D",
+    "type": "CPU",
+    "category": "High End",
+    "price": 12000.00,
+    "socketType": "AM5",
+    "wattage": 120,
+    "description": "16 cores with 3D V-Cache",
+    "tags": ["gaming", "4k", "entusiasta"]
+  },
+  {
+    "id": "cpu-3",
+    "name": "AMD Ryzen 5 5600G",
+    "type": "CPU",
+    "category": "Budget",
+    "price": 2500.00,
+    "socketType": "AM4",
+    "wattage": 65,
+    "description": "6 cores with Radeon Graphics",
+    "tags": ["economica", "barata", "ofimatica", "estudio", "gaming basico"]
+  },
+  {
+    "id": "cpu-4",
+    "name": "Intel Core i5-13400F",
+    "type": "CPU",
+    "category": "Mid Range",
+    "price": 3800.00,
+    "socketType": "LGA 1700",
+    "wattage": 65,
+    "description": "10 cores (6 P-cores + 4 E-cores)",
+    "tags": ["gaming", "1080p", "1440p", "calidad precio"]
+  },
+  {
+    "id": "mobo-1",
+    "name": "ASUS ROG Maximus Z790 Hero",
+    "type": "Motherboard",
+    "category": "High End",
+    "price": 10500.00,
+    "socketType": "LGA 1700",
+    "formFactor": "ATX",
+    "ramType": "DDR5",
+    "description": "Premium ATX motherboard for LGA 1700",
+    "tags": ["entusiasta", "gaming", "overclock"]
+  },
+  {
+    "id": "mobo-2",
+    "name": "GIGABYTE X670E AORUS Master",
+    "type": "Motherboard",
+    "category": "High End",
+    "price": 9500.00,
+    "socketType": "AM5",
+    "formFactor": "E-ATX",
+    "ramType": "DDR5",
+    "description": "Premium E-ATX motherboard for AM5",
+    "tags": ["entusiasta", "gaming", "overclock"]
+  },
+  {
+    "id": "mobo-3",
+    "name": "ASUS Prime A320M-K",
+    "type": "Motherboard",
+    "category": "Budget",
+    "price": 1200.00,
+    "socketType": "AM4",
+    "formFactor": "Micro-ATX",
+    "ramType": "DDR4",
+    "description": "Basic Micro-ATX for AM4",
+    "tags": ["economica", "barata", "ofimatica"]
+  },
+  {
+    "id": "mobo-4",
+    "name": "GIGABYTE B760M DS3H",
+    "type": "Motherboard",
+    "category": "Mid Range",
+    "price": 2500.00,
+    "socketType": "LGA 1700",
+    "formFactor": "Micro-ATX",
+    "ramType": "DDR5",
+    "description": "Solid mid-range for Intel 13th Gen",
+    "tags": ["calidad precio", "gaming"]
+  },
+  {
+    "id": "gpu-1",
+    "name": "NVIDIA GeForce RTX 4090",
+    "type": "GPU",
+    "category": "Ultra",
+    "price": 35000.00,
+    "wattage": 450,
+    "description": "24GB GDDR6X, Ada Lovelace Architecture",
+    "tags": ["gaming", "4k", "entusiasta", "render", "diseño 3d", "deep learning"]
+  },
+  {
+    "id": "gpu-2",
+    "name": "GIGABYTE GeForce RTX 4060 Ti",
+    "type": "GPU",
+    "category": "Mid Range",
+    "price": 8500.00,
+    "wattage": 160,
+    "description": "8GB GDDR6, Great for 1080p/1440p",
+    "tags": ["gaming", "1080p", "1440p", "calidad precio", "diseño"]
+  },
+  {
+    "id": "gpu-3",
+    "name": "ASUS Dual Radeon RX 6600",
+    "type": "GPU",
+    "category": "Budget",
+    "price": 4500.00,
+    "wattage": 132,
+    "description": "8GB GDDR6, Best budget 1080p card",
+    "tags": ["economica", "barata", "gaming basico", "1080p"]
+  },
+  {
+    "id": "ram-1",
+    "name": "XPG Lancer RGB 32GB (2x16GB) DDR5 6000MHz",
+    "type": "RAM",
+    "category": "High End",
+    "price": 2800.00,
+    "ramType": "DDR5",
+    "wattage": 10,
+    "description": "Fast DDR5 memory with RGB",
+    "tags": ["gaming", "diseño", "entusiasta"]
+  },
+  {
+    "id": "ram-2",
+    "name": "Corsair Vengeance LPX 16GB (2x8GB) DDR4 3200MHz",
+    "type": "RAM",
+    "category": "Budget",
+    "price": 950.00,
+    "ramType": "DDR4",
+    "wattage": 5,
+    "description": "Reliable DDR4 memory",
+    "tags": ["economica", "barata", "gaming basico", "ofimatica"]
+  },
+  {
+    "id": "ram-3",
+    "name": "Corsair Dominator Titanium 64GB (2x32GB) DDR5 6600",
+    "type": "RAM",
+    "category": "Ultra",
+    "price": 6000.00,
+    "ramType": "DDR5",
+    "wattage": 15,
+    "description": "Ultra premium DDR5 memory",
+    "tags": ["4k", "render", "entusiasta"]
+  },
+  {
+    "id": "psu-1",
+    "name": "Corsair RM1000x Shift 1000W",
+    "type": "PSU",
+    "category": "High End",
+    "price": 4200.00,
+    "wattage": 1000,
+    "description": "80 PLUS Gold Fully Modular ATX",
+    "tags": ["entusiasta", "4k", "overclock"]
+  },
+  {
+    "id": "psu-2",
+    "name": "XPG Pylon 650W",
+    "type": "PSU",
+    "category": "Mid Range",
+    "price": 1200.00,
+    "wattage": 650,
+    "description": "80 PLUS Bronze Non-Modular",
+    "tags": ["calidad precio", "gaming"]
+  },
+  {
+    "id": "psu-3",
+    "name": "Aerocool Cylon 500W",
+    "type": "PSU",
+    "category": "Budget",
+    "price": 600.00,
+    "wattage": 500,
+    "description": "80 PLUS White",
+    "tags": ["economica", "barata", "ofimatica"]
+  },
+  {
+    "id": "storage-1",
+    "name": "Kingston NV2 1TB NVMe Gen4",
+    "type": "Storage",
+    "category": "Mid Range",
+    "price": 1100.00,
+    "description": "M.2 2280 NVMe PCIe 4.0 SSD",
+    "tags": ["rapido", "m.2", "ssd", "gaming", "calidad precio"]
+  },
+  {
+    "id": "storage-2",
+    "name": "Samsung 990 Pro 2TB",
+    "type": "Storage",
+    "category": "Ultra",
+    "price": 3800.00,
+    "description": "Premium NVMe Gen4 SSD",
+    "tags": ["ultra", "4k", "diseño", "render", "entusiasta", "m.2", "ssd"]
+  },
+  {
+    "id": "storage-3",
+    "name": "Kingston A400 480GB",
+    "type": "Storage",
+    "category": "Budget",
+    "price": 550.00,
+    "description": "SATA SSD 2.5\"",
+    "tags": ["economica", "barata", "ofimatica", "ssd"]
+  },
+  {
+    "id": "case-1",
+    "name": "XPG Valor Mesh White",
+    "type": "Case",
+    "category": "Mid Range",
+    "price": 1200.00,
+    "formFactor": "ATX",
+    "description": "Mid-tower case with great airflow",
+    "tags": ["gaming", "calidad precio", "blanco", "espacioso"]
+  },
+  {
+    "id": "case-2",
+    "name": "NZXT H9 Flow",
+    "type": "Case",
+    "category": "High End",
+    "price": 3200.00,
+    "formFactor": "ATX",
+    "description": "Dual-chamber mid-tower case",
+    "tags": ["entusiasta", "espacioso", "gaming", "premium", "blanco"]
+  },
+  {
+    "id": "case-3",
+    "name": "Acteck Kiruna Micro-ATX",
+    "type": "Case",
+    "category": "Budget",
+    "price": 450.00,
+    "formFactor": "Micro-ATX",
+    "description": "Compact office case",
+    "tags": ["economica", "barata", "ofimatica", "compacto"]
+  },
+  {
+    "id": "case-4",
+    "name": "ASUS ROG Strix Helios",
+    "type": "Case",
+    "category": "Ultra",
+    "price": 6500.00,
+    "formFactor": "ATX",
+    "description": "Premium gaming case with RGB",
+    "tags": ["gaming", "4k", "rgb", "entusiasta", "premium"]
+  }
+]
