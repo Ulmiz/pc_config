@@ -7,7 +7,7 @@ import '../providers/build_state_provider.dart';
 class StatusBar extends ConsumerWidget {
   final Color? backgroundColor;
 
-  const StatusBar({Key? key, this.backgroundColor}) : super(key: key);
+  const StatusBar({super.key, this.backgroundColor});
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {

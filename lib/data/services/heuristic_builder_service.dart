@@ -4,7 +4,6 @@ import '../../presentation/providers/isar_provider.dart';
 import '../repositories/pc_part_repository.dart';
 import '../models/pc_part_model.dart';
 import '../../presentation/providers/build_state_provider.dart';
-import '../../domain/usecases/compatibility_validator.dart';
 
 final heuristicBuilderServiceProvider = Provider<HeuristicBuilderService>((ref) {
   final isar = ref.watch(isarProvider);

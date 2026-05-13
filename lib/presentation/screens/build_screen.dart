@@ -15,7 +15,7 @@ import '../widgets/ai_terminal_input.dart';
 import 'saved_configs_screen.dart';
 
 class BuildScreen extends ConsumerStatefulWidget {
-  const BuildScreen({Key? key}) : super(key: key);
+  const BuildScreen({super.key});
 
   @override
   ConsumerState<BuildScreen> createState() => _BuildScreenState();
@@ -111,8 +111,9 @@ class _BuildScreenState extends ConsumerState<BuildScreen> with TickerProviderSt
     
     String brand = "";
     if (gpu != null) {
-      if (gpu.name.toLowerCase().contains('asus')) brand = "Asus";
-      else if (gpu.name.toLowerCase().contains('gigabyte')) brand = "Gigabyte";
+      if (gpu.name.toLowerCase().contains('asus')) {
+        brand = "Asus";
+      } else if (gpu.name.toLowerCase().contains('gigabyte')) brand = "Gigabyte";
       else if (gpu.name.toLowerCase().contains('aorus')) brand = "Aorus";
       else if (gpu.name.toLowerCase().contains('msi')) brand = "MSI";
     }
@@ -367,7 +368,7 @@ class _BuildScreenState extends ConsumerState<BuildScreen> with TickerProviderSt
                     ),
                     const SizedBox(height: 20),
                     // Visual PC Area
-                    Container(
+                    SizedBox(
                       height: 280,
                       width: double.infinity,
                       child: Stack(

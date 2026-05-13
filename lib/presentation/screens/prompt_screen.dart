@@ -11,7 +11,7 @@ import '../widgets/status_bar.dart';
 import 'build_screen.dart';
 
 class PromptScreen extends ConsumerStatefulWidget {
-  const PromptScreen({Key? key}) : super(key: key);
+  const PromptScreen({super.key});
 
   @override
   ConsumerState<PromptScreen> createState() => _PromptScreenState();

@@ -8,11 +8,11 @@ class VoiceSearchOverlay extends StatefulWidget {
   final VoidCallback onCancel;
 
   const VoiceSearchOverlay({
-    Key? key,
+    super.key,
     required this.transcribedText,
     required this.isListening,
     required this.onCancel,
-  }) : super(key: key);
+  });
 
   @override
   State<VoiceSearchOverlay> createState() => _VoiceSearchOverlayState();

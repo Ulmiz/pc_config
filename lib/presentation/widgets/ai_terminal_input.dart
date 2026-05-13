@@ -11,14 +11,14 @@ class AiTerminalInput extends StatelessWidget {
   final Color? borderColor;
 
   const AiTerminalInput({
-    Key? key,
+    super.key,
     required this.controller,
     required this.onSubmitted,
     this.onVoicePressed,
     this.isListening = false,
     this.backgroundColor,
     this.borderColor,
-  }) : super(key: key);
+  });
 
   @override
   Widget build(BuildContext context) {

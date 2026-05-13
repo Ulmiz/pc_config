@@ -8,7 +8,7 @@ import '../providers/build_state_provider.dart';
 import 'build_screen.dart';
 
 class SavedConfigsScreen extends ConsumerWidget {
-  const SavedConfigsScreen({Key? key}) : super(key: key);
+  const SavedConfigsScreen({super.key});
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
